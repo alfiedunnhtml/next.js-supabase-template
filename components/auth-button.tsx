@@ -1,3 +1,5 @@
+// Used in navbar, if user is logged in, show logout button and greeting, if not, show login and sign up buttons
+
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { createClient } from "@/lib/supabase/server";
